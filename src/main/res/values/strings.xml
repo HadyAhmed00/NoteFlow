@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">NoteFlow</string>
+    <string name="sing_in">Sing In</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="con_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="for_pass">Forget Password?</string>
+    <string name="do_have_ac">"Do not have an account?  "</string>
+    <string name="regester">Register</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="alrady">"Already Have an account  "</string>
 </resources>
