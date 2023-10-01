@@ -21,15 +21,18 @@ class SignIn : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
+        //binding init
         binding = FragmentSignInBinding.inflate(layoutInflater)
 
+
+
+
+        // Click Listeners
         binding.signinBtn.setOnClickListener {
 
-            findNavController().navigate(R.id.action_signIn_to_signUp)
+            findNavController().navigate(R.id.action_signIn_to_home2)
 
         }
-
         binding.regesterBtn.setOnClickListener{
             findNavController().navigate(R.id.action_signIn_to_signUp)
         }

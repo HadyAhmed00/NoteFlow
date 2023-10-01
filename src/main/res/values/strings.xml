@@ -10,4 +10,7 @@
     <string name="regester">Register</string>
     <string name="sign_up">Sign Up</string>
     <string name="alrady">"Already Have an account  "</string>
+    <string name="wellcom">Wellcome back !</string>
+    <string name="user">User Name</string>
+    <string name="search">Search</string>
 </resources>

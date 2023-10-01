@@ -1,10 +1,6 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    //Navigation
-//    id("androidx.navigation.safeargs")
-//    id("androidx.navigation.safeargs.kotlin")
-
 }
 
 android {
@@ -13,6 +9,7 @@ android {
 
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
 
     defaultConfig {
