@@ -1,5 +1,7 @@
 package io.github.noteflow
 
+import android.annotation.SuppressLint
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
@@ -16,16 +18,21 @@ class NoteAdapter(private val clickListener: (Note) -> Unit) :
         return NoteViewHolder(binding)
     }
 
+    @SuppressLint("ResourceAsColor")
     override fun onBindViewHolder(holder: NoteViewHolder, position: Int) {
         val note = getItem(position)
         holder.bind(note)
+
+
         holder.itemView.setOnClickListener { clickListener(note) }
+
     }
 
     class NoteViewHolder(private val binding: NoteCardBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(note: Note) {
             binding.note = note
+            binding.card.setCardBackgroundColor(Color.parseColor(note.color))
             binding.executePendingBindings()
         }
     }

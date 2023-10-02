@@ -88,7 +88,7 @@
             android:id="@+id/note_rc"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
             app:spanCount="2"
             android:padding="5dp"
             app:layout_constraintBottom_toBottomOf="parent"

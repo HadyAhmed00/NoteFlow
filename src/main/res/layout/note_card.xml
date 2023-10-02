@@ -10,10 +10,10 @@
     </data>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        app:cardBackgroundColor="@color/yollu"
         app:cardCornerRadius="20dp">
 
         <LinearLayout
@@ -27,10 +27,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:text="@{note.title}"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                android:text="@{note.title}"
                 tools:text="The Title" />
 
             <TextView
@@ -38,8 +38,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:textColor="@color/black"
                 android:text="@{note.content}"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 tools:text="Reminder to create a design brief for the project tomorrow" />
 

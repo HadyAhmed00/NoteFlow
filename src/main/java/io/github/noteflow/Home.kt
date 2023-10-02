@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import io.github.noteflow.databinding.FragmentHomeBinding
 
 class Home : Fragment() {
@@ -30,7 +31,7 @@ class Home : Fragment() {
         val adapter = NoteAdapter { note -> onNoteClick(note) }
 
         recyclerView.adapter = adapter
-        recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
+        recyclerView.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
         // Submit the list to the adapter
         adapter.submitList(noteList)
 
@@ -47,9 +48,12 @@ class Home : Fragment() {
     private fun getNoteList(): List<Note> {
         // Replace this with your data retrieval logic
         return listOf(
-            Note(1, "Note 1", "Content for Note 1 Content for Note 1 Content for Note 1 Content for Note 1", "Oct 1 2023" ,1 ,"work"),
-            Note(2, "Note 2", "Content for Note 2", "Oct 1 2023" ,1 ,"work"),
-            Note(3, "Note 3", "Content for Note 3", "Oct 1 2023" ,1 ,"work")
+            Note(1, "Note 1", "Content for Note 1 Content for Note 1 Content for Note 1 Content for Note 1", "Oct 1 2023" ,"#3FD1FF" ,"work"),
+            Note(2, "Note 2", "Content for Note 2", "Oct 1 2023" ,"#E2E41D" ,"work"),
+            Note(2, "Note 2", "Content for Note 2", "Oct 1 2023" ,"#FE5E2B" ,"work"),
+            Note(3, "Note 3", "Content for Note 3", "Oct 1 2023" ,"#E2E41D" ,"work"),
+            Note(3, "Note 3", "Content for Note 3", "Oct 1 2023" ,"#FFFFFFFF" ,"work"),
+            Note(4, "Note 4", "this is the one", "Oct 1 2023" ,"#FE5E2B" ,"work")
         )
     }
 
