@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
@@ -43,6 +44,7 @@ class Home : Fragment() {
     private fun onNoteClick(note: Note) {
         // Handle item click here
         Toast.makeText(requireContext(), "Clicked: ${note.title}", Toast.LENGTH_SHORT).show()
+        findNavController().navigate(R.id.action_home2_to_noteEdit)
     }
 
     private fun getNoteList(): List<Note> {

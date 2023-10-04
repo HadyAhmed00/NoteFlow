@@ -33,5 +33,13 @@
         android:id="@+id/home2"
         android:name="io.github.noteflow.Home"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_noteEdit"
+            app:destination="@id/noteEdit" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteEdit"
+        android:name="io.github.noteflow.NoteEdit"
+        android:label="NoteEdit" />
 </navigation>
