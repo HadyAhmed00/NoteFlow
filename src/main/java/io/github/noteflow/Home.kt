@@ -52,10 +52,20 @@ class Home : Fragment() {
         return listOf(
             Note(1, "Note 1", "Content for Note 1 Content for Note 1 Content for Note 1 Content for Note 1", "Oct 1 2023" ,"#3FD1FF" ,"work"),
             Note(2, "Note 2", "Content for Note 2", "Oct 1 2023" ,"#E2E41D" ,"work"),
-            Note(2, "Note 2", "Content for Note 2", "Oct 1 2023" ,"#FE5E2B" ,"work"),
-            Note(3, "Note 3", "Content for Note 3", "Oct 1 2023" ,"#E2E41D" ,"work"),
-            Note(3, "Note 3", "Content for Note 3", "Oct 1 2023" ,"#FFFFFFFF" ,"work"),
-            Note(4, "Note 4", "this is the one", "Oct 1 2023" ,"#FE5E2B" ,"work")
+            Note(3, "Note 3", "Content for Note 3 with a bit longer content to demonstrate different lengths.", "Oct 1 2023" ,"#FE5E2B" ,"work"),
+            Note(4, "Note 4", "This is a short note.", "Oct 1 2023" ,"#E2E41D" ,"work"),
+            Note(5, "Note 5", "Content for Note 5", "Oct 1 2023" ,"#FFFFFFFF" ,"personal"),
+            Note(6, "Note 6", "This is another note with varying content.", "Oct 2 2023" ,"#FE5E2B" ,"personal"),
+            Note(7, "Note 7", "Short content", "Oct 2 2023" ,"#3FD1FF" ,"personal"),
+            Note(8, "Note 8", "Content for Note 8 Content for Note 8 Content for Note 8 Content for Note 8 Content for Note 8", "Oct 2 2023" ,"#E2E41D" ,"work"),
+            Note(9, "Note 9", "A very brief note.", "Oct 2 2023" ,"#FE5E2B" ,"work"),
+            Note(10, "Note 10", "Content for Note 10", "Oct 3 2023" ,"#E2E41D" ,"work"),
+            Note(11, "Note 11", "This is a longer note to demonstrate different content lengths.", "Oct 3 2023" ,"#FFFFFFFF" ,"personal"),
+            Note(12, "Note 12", "Note with unique color.", "Oct 3 2023" ,"#FF5733" ,"personal"),
+            Note(13, "Note 13", "Content for Note 13", "Oct 3 2023" ,"#3FD1FF" ,"work"),
+            Note(14, "Note 14", "Another short note.", "Oct 4 2023" ,"#E2E41D" ,"work"),
+            Note(15, "Note 15", "Content for Note 15 Content for Note 15 Content for Note 15 Content for Note 15", "Oct 4 2023" ,"#FE5E2B" ,"work")
+
         )
     }
 

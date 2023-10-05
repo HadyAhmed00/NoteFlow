@@ -41,5 +41,9 @@
     <fragment
         android:id="@+id/noteEdit"
         android:name="io.github.noteflow.NoteEdit"
-        android:label="NoteEdit" />
+        android:label="NoteEdit" >
+        <argument
+            android:name="note_to_edit"
+            app:argType="io.github.noteflow.Note" />
+    </fragment>
 </navigation>
