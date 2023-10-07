@@ -1,6 +1,5 @@
 package io.github.noteflow
 
-import android.graphics.Color
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 @Parcelize
