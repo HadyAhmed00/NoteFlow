@@ -15,9 +15,7 @@ import io.github.noteflow.databinding.FragmentHomeBinding
 
 class Home : Fragment() {
 
-    companion object {
-        fun newInstance() = Home()
-    }
+
 
     private lateinit var viewModel: HomeViewModel
     private lateinit var binding: FragmentHomeBinding

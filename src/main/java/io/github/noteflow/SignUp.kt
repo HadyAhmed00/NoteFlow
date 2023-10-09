@@ -11,9 +11,7 @@ import io.github.noteflow.databinding.FragmentSignUpBinding
 
 class SignUp : Fragment() {
 
-    companion object {
-        fun newInstance() = SignUp()
-    }
+
 
     private lateinit var viewModel: SignUpViewModel
     private lateinit var binding:FragmentSignUpBinding
