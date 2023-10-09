@@ -11,9 +11,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b2975f-0634-475a-bd5b-1422ec7de9d0" name="Changes" comment="adding some changes">
-      <change beforePath="$PROJECT_DIR$/app/NoteFlow/src/main/java/io/github/noteflow/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/NoteFlow/src/main/java/io/github/noteflow/Home.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/noteflow/SignUp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/noteflow/SignUp.kt" afterDir="false" />
+    <list default="true" id="ad24d6cc-741f-45a1-9ffe-61eec9361b8a" name="Changes" comment="Adding the NoteEdit.kt with the view viewModel full the design">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/noteflow/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/noteflow/Home.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/github/noteflow/Note.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/github/noteflow/Note.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_note_edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_note_edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_sign_in.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,32 +30,78 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NoteFlow" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NoteFlow" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NoteFlow" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NoteFlow" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/NoteFlow" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2WLQuqgPANRrsqbWaxuBpwlhev6" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2WCqPpKmIQHj37vcOykyTgp0WWK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hady/Documents/GitHub/NoteFlow&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="android.template.899433798">
+      <recent name="io.github.noteflow" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="NoteFlow.app.main" />
@@ -122,28 +172,42 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="87b2975f-0634-475a-bd5b-1422ec7de9d0" name="Changes" comment="" />
-      <created>1696509605460</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1696509605460</updated>
-    </task>
-    <task id="LOCAL-00001" summary="adding some changes">
-      <created>1696667849055</created>
+    <task id="LOCAL-00001" summary="adding the main RC">
+      <created>1696172759682</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1696667849055</updated>
+      <updated>1696172759682</updated>
     </task>
-    <task id="LOCAL-00002" summary="adding some changes">
-      <created>1696840759585</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad24d6cc-741f-45a1-9ffe-61eec9361b8a" name="Changes" comment="adding the main RC" />
+      <created>1696246895937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696246895937</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Modifying the RC with custom Colors">
+      <created>1696247201149</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1696840759588</updated>
+      <updated>1696247201149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding the NoteEdit.kt with the view viewModel">
+      <created>1696337626071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696337626071</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding the NoteEdit.kt with the view viewModel full the design">
+      <created>1696408853674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696408853674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +222,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding some changes" />
+    <MESSAGE value="adding the main RC" />
+    <MESSAGE value="Modifying the RC with custom Colors" />
+    <MESSAGE value="Adding the NoteEdit.kt with the view viewModel" />
+    <MESSAGE value="Adding the NoteEdit.kt with the view viewModel full the design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the NoteEdit.kt with the view viewModel full the design" />
   </component>
 </project>

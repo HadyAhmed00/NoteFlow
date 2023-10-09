@@ -15,14 +15,13 @@ class SignUp : Fragment() {
 
     private lateinit var viewModel: SignUpViewModel
     private lateinit var binding:FragmentSignUpBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Binding init
         binding = FragmentSignUpBinding.inflate(layoutInflater)
-
-
 
 
 
