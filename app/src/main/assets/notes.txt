@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "title": "Meeting Agenda",
+      "content": "Discuss quarterly reports and upcoming projects.",
+      "date": "Oct 1 2023",
+      "color": "#FFFF00",
+      "type": "Work"
+    },
+    {
+      "id": 2,
+      "title": "Grocery List",
+      "content": "Milk, eggs, bread, and apples.",
+      "date": "Oct 1 2023",
+      "color": "#008000",
+      "type": "Personal"
+    },
+    {
+      "id": 3,
+      "title": "Birthday Party",
+      "content": "Buy decorations and cake for Sarah's birthday.",
+      "date": "Oct 15 2023",
+      "color": "#FFC0CB",
+      "type": "Personal"
+    },
+    {
+      "id": 4,
+      "title": "Project Deadline",
+      "content": "Complete the project proposal by Friday.",
+      "date": "Oct 13 2023",
+      "color": "#FF0000",
+      "type": "Work"
+    },
+    {
+      "id": 5,
+      "title": "Travel Plans",
+      "content": "Book flights and hotels for the vacation.",
+      "date": "Nov 5 2023",
+      "color": "#0000FF",
+      "type": "Personal"
+    },
+    {
+      "id": 6,
+      "title": "Weekly Goals",
+      "content": "Exercise 3 times this week and finish reading the book.",
+      "date": "Oct 16 2023",
+      "color": "#FFA500",
+      "type": "Personal"
+    },
+    {
+      "id": 7,
+      "title": "Important Call",
+      "content": "Call the client at 2 PM to discuss the project update.",
+      "date": "Oct 12 2023",
+      "color": "#FFFF00",
+      "type": "Work"
+    },
+    {
+      "id": 8,
+      "title": "Recipe",
+      "content": "Ingredients for spaghetti bolognese.",
+      "date": "Oct 14 2023",
+      "color": "#008000",
+      "type": "Personal"
+    },
+    {
+      "id": 9,
+      "title": "Anniversary",
+      "content": "Buy a gift for the anniversary.",
+      "date": "Nov 2 2023",
+      "color": "#FF0000",
+      "type": "Personal"
+    },
+    {
+      "id": 10,
+      "title": "Staff Meeting",
+      "content": "Prepare the presentation for the team meeting.",
+      "date": "Oct 19 2023",
+      "color": "#0000FF",
+      "type": "Work"
+    },
+    {
+      "id": 11,
+      "title": "Dentist Appointment",
+      "content": "Dental checkup at 4:30 PM.",
+      "date": "Oct 18 2023",
+      "color": "#FFC0CB",
+      "type": "Personal"
+    },
+    {
+      "id": 12,
+      "title": "Financial Report",
+      "content": "Review monthly financial statements.",
+      "date": "Oct 20 2023",
+      "color": "#FFA500",
+      "type": "Work"
+    },
+    {
+      "id": 13,
+      "title": "Home Repairs",
+      "content": "Fix the leaky faucet and repaint the living room.",
+      "date": "Nov 10 2023",
+      "color": "#008000",
+      "type": "Personal"
+    },
+    {
+      "id": 14,
+      "title": "Team Building",
+      "content": "Plan team-building activities for the weekend.",
+      "date": "Nov 12 2023",
+      "color": "#0000FF",
+      "type": "Work"
+    },
+    {
+      "id": 15,
+      "title": "Holiday Planning",
+      "content": "Start researching destinations for the next holiday.",
+      "date": "Nov 15 2023",
+      "color": "#FFFF00",
+      "type": "Personal"
+    }
+  ]

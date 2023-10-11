@@ -1,24 +1,28 @@
 package io.github.noteflow
 
-import androidx.lifecycle.ViewModelProvider
+import android.content.res.AssetManager
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import io.github.noteflow.databinding.FragmentHomeBinding
+import org.json.JSONArray
+import org.json.JSONObject
+import java.io.InputStream
 
 class Home : Fragment() {
 
-
-
     private lateinit var viewModel: HomeViewModel
     private lateinit var binding: FragmentHomeBinding
+    private val TAG = "HomeFragment"
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -47,6 +51,26 @@ class Home : Fragment() {
 
     private fun getNoteList(): List<Note> {
         // Replace this with your data retrieval logic
+        val noteList : List<Note>
+        try
+        {
+            val assetMan = requireContext().assets
+            val reader: InputStream = assetMan.open("notes.txt")
+            val jsonData: String = reader.bufferedReader().use {
+                it.readText()
+            }
+
+            val gson = Gson()
+
+            // Convert the JSON array to a list of your data class
+            noteList = gson.fromJson(jsonData, object : TypeToken<List<Note>>() {}.type)
+
+            return noteList
+
+        }catch (e:Exception){
+            Log.e(TAG, "getNoteList: ${e.message}")
+        }
+
         return listOf(
             Note(1, "Note 1", "Content for Note 1 Content for Note 1 Content for Note 1 Content for Note 1", "Oct 1 2023" ,"#3FD1FF" ,"work"),
             Note(2, "Note 2", "Content for Note 2", "Oct 1 2023" ,"#E2E41D" ,"work"),
@@ -66,5 +90,6 @@ class Home : Fragment() {
 
         )
     }
+
 
 }
