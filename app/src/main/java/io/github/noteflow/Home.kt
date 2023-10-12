@@ -46,7 +46,8 @@ class Home : Fragment() {
     private fun onNoteClick(note: Note) {
         // Handle item click here
         Toast.makeText(requireContext(), "Clicked: ${note.title}", Toast.LENGTH_SHORT).show()
-        findNavController().navigate(R.id.action_home2_to_noteEdit)
+
+        findNavController().navigate(HomeDirections.actionHome2ToNoteEdit(note))
     }
 
     private fun getNoteList(): List<Note> {

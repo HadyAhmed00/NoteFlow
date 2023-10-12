@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="note"
+            type="io.github.noteflow.Note" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -53,6 +55,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/title_txt"
+                android:text="@{note.title}"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -71,6 +74,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/note_content_txt"
+                android:text="@{note.content}"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="start" />
