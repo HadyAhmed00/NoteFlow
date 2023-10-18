@@ -1,4 +1,4 @@
-package io.github.noteflow
+package io.github.noteflow.viewModel
 
 import androidx.lifecycle.ViewModel
 

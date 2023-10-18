@@ -1,4 +1,4 @@
-package io.github.noteflow
+package io.github.noteflow.adapter
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import io.github.noteflow.dataBase.Note
 import io.github.noteflow.databinding.NoteCardBinding
 
 class NoteAdapter(private val clickListener: (Note) -> Unit) :

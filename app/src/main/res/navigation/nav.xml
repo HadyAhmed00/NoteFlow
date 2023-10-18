@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/signIn"
-        android:name="io.github.noteflow.SignIn"
+        android:name="io.github.noteflow.ui.SignIn"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/signUp"
-        android:name="io.github.noteflow.SignUp"
+        android:name="io.github.noteflow.ui.SignUp"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" >
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/home2"
-        android:name="io.github.noteflow.Home"
+        android:name="io.github.noteflow.ui.Home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -40,10 +40,10 @@
     </fragment>
     <fragment
         android:id="@+id/noteEdit"
-        android:name="io.github.noteflow.NoteEdit"
+        android:name="io.github.noteflow.ui.NoteEdit"
         android:label="NoteEdit" >
         <argument
             android:name="note_to_edit"
-            app:argType="io.github.noteflow.Note" />
+            app:argType="io.github.noteflow.dataBase.Note" />
     </fragment>
 </navigation>

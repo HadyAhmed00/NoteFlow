@@ -1,4 +1,4 @@
-package io.github.noteflow
+package io.github.noteflow.ui
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
+import io.github.noteflow.viewModel.NoteEditViewModel
 import io.github.noteflow.databinding.FragmentNoteEditBinding
 
 class NoteEdit : Fragment() {
@@ -17,7 +18,7 @@ class NoteEdit : Fragment() {
 
     private lateinit var viewModel: NoteEditViewModel
     private lateinit var binding: FragmentNoteEditBinding
-    val args: NoteEditArgs by navArgs()
+    val args: io.github.noteflow.NoteEditArgs by navArgs()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

@@ -1,12 +1,13 @@
-package io.github.noteflow
+package io.github.noteflow.ui
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import io.github.noteflow.R
+import io.github.noteflow.viewModel.SignUpViewModel
 import io.github.noteflow.databinding.FragmentSignUpBinding
 
 class SignUp : Fragment() {

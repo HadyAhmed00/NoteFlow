@@ -1,6 +1,5 @@
-package io.github.noteflow
+package io.github.noteflow.ui
 
-import android.content.res.AssetManager
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -13,9 +12,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import io.github.noteflow.viewModel.HomeViewModel
+import io.github.noteflow.dataBase.Note
+import io.github.noteflow.adapter.NoteAdapter
 import io.github.noteflow.databinding.FragmentHomeBinding
-import org.json.JSONArray
-import org.json.JSONObject
 import java.io.InputStream
 
 class Home : Fragment() {
@@ -47,7 +47,7 @@ class Home : Fragment() {
         // Handle item click here
         Toast.makeText(requireContext(), "Clicked: ${note.title}", Toast.LENGTH_SHORT).show()
 
-        findNavController().navigate(HomeDirections.actionHome2ToNoteEdit(note))
+        findNavController().navigate(io.github.noteflow.HomeDirections.actionHome2ToNoteEdit(note))
     }
 
     private fun getNoteList(): List<Note> {

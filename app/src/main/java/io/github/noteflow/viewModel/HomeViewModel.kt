@@ -1,7 +1,7 @@
-package io.github.noteflow
+package io.github.noteflow.viewModel
 
 import androidx.lifecycle.ViewModel
 
-class SignUpViewModel : ViewModel() {
+class HomeViewModel : ViewModel() {
     // TODO: Implement the ViewModel
 }
